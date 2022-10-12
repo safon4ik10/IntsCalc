@@ -15,5 +15,9 @@ public class Main {
         Ints intsCalc = new IntsCalculator();
         System.out.println(intsCalc.mult(5, 15));
 
+        BinOps binOps = new BinOps();
+        System.out.println(binOps.sum("101", "10"));
+        System.out.println(binOps.mult("101", "10"));
+
     }
 }
